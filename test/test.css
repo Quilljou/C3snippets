@@ -1,0 +1,12 @@
+body {
+  background: tomato;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=test.css.map */
