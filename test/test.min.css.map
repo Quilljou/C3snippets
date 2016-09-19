@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "test.min.css",
+	"sources": [
+		"test.sass",
+		"../C3snippets.sass"
+	],
+	"mappings": "AAEA,AAAA,IAAI,AAAC,CACD,UAAU,CAAE,MAAO,CAAG,AAG1B,AAAA,IAAI,AAAC,CCmBD,KAAK,CDdU,KAAK,CCepB,MAAM,CDfe,IAAI,CCgBzB,gBAAgB,CDhBU,GAAG,CCiD7B,OAAO,CAAE,IAAK,CACd,WAAW,CAAE,MAAO,CACpB,eAAe,CAAE,MAAO,CDhDe,AAR3C,AAOI,IAPA,CAOA,MAAM,AAAC,CCYP,KAAK,CDXc,IAAI,CCYvB,MAAM,CDZkB,IAAI,CCa5B,gBAAgB,CDba,IAAI,CAAI",
+	"names": []
+}

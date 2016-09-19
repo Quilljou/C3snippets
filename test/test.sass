@@ -1,0 +1,15 @@
+// output
+@import "../C3snippets.sass"
+body
+    background: tomato
+
+
+.box
+    // @include square(100px)
+    // @include center
+    // @include  circle(100px)
+    // @include abscenter
+    @include  rect(100px,50px,red)
+    @include flexcenter
+    .child
+        @include  rect(30px,30px,#fff)
