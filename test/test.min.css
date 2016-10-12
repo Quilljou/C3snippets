@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 body{background:tomato}.box{width:100px;height:50px;background-color:red;display:flex;align-items:center;justify-content:center}.box .child{width:30px;height:30px;background-color:#fff}
+=======
+body{background:tomato}.box{width:100px;height:100px;background-color:#000;margin:0 auto}
+>>>>>>> 7d21e8ceb9e730aa817a592dff4c3215a86d3e6f
 
 /*# sourceMappingURL=test.min.css.map */

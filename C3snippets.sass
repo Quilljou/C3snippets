@@ -36,7 +36,11 @@ $default-bg: #000
     background-color: $default-bg
 
 
-
+// gold rect
+@mixin goldrect($d,$bg: $default-bg)
+    width: $d
+    height: 1.618033 * $d
+    background: $bg
 
 
 
@@ -64,6 +68,67 @@ $default-bg: #000
     align-items: center
     justify-content: center
 
+@mixin  inline($d)
+    line-height: $d
+    height: $d
+
+
+
+
 @mixin cover
     width: 100%
     height: 100%
+@mixin center
+    margin: 0 auto
+
+@mixin square($d, $bg: #000)
+    width: $d
+    height: $d
+    background-color: $bg
+
+
+//***********************************
+    * About others
+//************************************
+
+@mixin after
+    content: ''
+    position: absolute
+
+
+@mixin focus
+    outline: none
+
+@mixin aback
+    text-decoration: underline
+
+@mixin pointer
+    cursor: pointer
+
+@mixin overlay($opacity)
+    background: rgba(0,0,0,$opacity)
+
+
+
+// clear input or button
+@mixin btnclear
+    border: 0
+    cursor: pointer
+    &:focus,
+    &:active
+        outline: 0
+        border: 0
+@mixin  inputclear
+    outline: 0
+    border-radius: 0
+    border: 1px solid #000
+    &:focus,
+    &:active
+        outline: 0
+
+
+@mixin fourzero
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0

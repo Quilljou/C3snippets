@@ -4,6 +4,7 @@ body {
 
 .box {
   width: 100px;
+<<<<<<< HEAD
   height: 50px;
   background-color: red;
   display: flex;
@@ -15,6 +16,11 @@ body {
   width: 30px;
   height: 30px;
   background-color: #fff;
+=======
+  height: 100px;
+  background-color: #000;
+  margin: 0 auto;
+>>>>>>> 7d21e8ceb9e730aa817a592dff4c3215a86d3e6f
 }
 
 /*# sourceMappingURL=test.css.map */
